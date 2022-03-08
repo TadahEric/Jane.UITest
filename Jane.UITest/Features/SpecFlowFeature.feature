@@ -4,7 +4,7 @@
 	I need to pass a test
 
 @mytag
-Scenario: 1. Verify that Logging in takes user to the Search page
+Scenario: 1. Verify that Logging in takes user to the Search page in English
 	Given I have reached the login page "localhost/en/login"
 	And I have entered "Admin" as username
 	And I have entered "Password1" as password
@@ -13,7 +13,7 @@ Scenario: 1. Verify that Logging in takes user to the Search page
 	And the search language is "English"
 
 
-Scenario: 1. Verify that Logging in takes user to the Search page
+Scenario: 1. Verify that Logging in takes user to the Search page in French
 	Given I have reached the login page "localhost/fr/login"
 	And I have entered "Admin" as username
 	And I have entered "Password1" as password
@@ -22,7 +22,7 @@ Scenario: 1. Verify that Logging in takes user to the Search page
 	And the search language is "French"
 
 
-Scenario: 1. Verify that Logging in takes user to the Search page
+Scenario: 1. Verify that Logging in takes user to the Search page in Spanish
 	Given I have reached the login page "localhost/es/login"
 	And I have entered "Admin" as username
 	And I have entered "Password1" as password

@@ -16,7 +16,7 @@ namespace Jane.UITest.Pages
         IWebElement loginSubmit => _driver.FindElement(By.Id("loginsubmit"));
         IWebElement titlePage => _driver.FindElement(By.Id("Test - Home"));
 
-        internal void navigateToLoginPage(string Url)
+        internal void navigateToLoginPage()
         {
             _driver.Navigate().GoToUrl(Url);
         }
